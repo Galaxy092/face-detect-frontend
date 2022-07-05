@@ -1,0 +1,12 @@
+.f3-link-dim-black-underline-pa3-pointer-white {
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color .15s ease-in;
+    opacity: 1;
+    transition: opacity .15s ease-in;
+    color: #000;
+    text-decoration: underline;
+    padding: 1rem;
+    cursor: pointer;
+    color: #fff;
+}

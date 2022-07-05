@@ -1,0 +1,49 @@
+.form {
+    width: 700px;
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+}
+
+.pa4-br3-shadow-5 {
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+}
+
+.f4-ba-br3-pa2-w-70 {
+    font-size: 1.25rem;
+    border-style: solid;
+    border-radius: .5rem;
+    padding: 0.5rem;
+    width: 70%;
+}
+
+.w-30-f4-ba-br3-link-ph3-pv2-dib-white-bg-light-blue {
+    display: inline-block;
+    width: 30%;
+    color: white;
+    font-size: 1.25rem;
+    border-style: solid;
+    border-radius: .5rem;
+    text-decoration: none;
+    transition: color .15s ease-in;
+    padding: 0.5rem 1rem;
+    background-color: #96ccff;
+}
+
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.grow:hover,
+.grow:focus {
+    transform: scale(1.2);
+}
